@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logo-bonjour{
+    object-fit: contain;
+}
+.lien-menu a{
+    color: black;
+    text-decoration: none;
+    line-height: 95px;
+    margin: 15px;
+}
+.grande-section{
+    display: flex;
+    height: 776px;
+}
+.chair1{ 
+    width: 50%;
+    object-fit: cover;
+}
+.section-droite{
+    width: 50%;
+    text-align: center;
+    padding-top: 340px;
+}
+.section-droite h2{font-size: 70px;}
+.notre-histoire{
+    background-image:url(images/motif.jpg);
+    color: white;
+    padding: 120px 100px;
+}
+.notre-histoire h3,p{
+    
+    display: flex;
+    justify-content: center;
+}
+.notre-histoire h3{font-size: 60px;}
+.mes-chaises{
+    display: flex;
+    height: 50vh;
+}
+.mes-chaises > img{
+    width: 33.33%;
+    margin: 20px ;
+    object-fit: cover;
+    padding: 100px 20px;
+}
+.footer{
+    color: white;
+    background-image:url(images/motif.jpg);
+    text-align: center;
+}
